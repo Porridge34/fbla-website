@@ -1,0 +1,18 @@
+.topnav{
+  background-color: #4EC8D1;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a {
+  color: black;
+}
+a:hover{
+  color: #499153;
+}
+a:visited{
+  color: black;
+}
