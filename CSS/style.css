@@ -43,6 +43,9 @@ th {
   border: 2px dashed black;
   text-align: center;
 }
+thead+tbody{
+  background-color: #54898a;
+}
 td {
   border: 2px dashed black;
   text-align: center;
