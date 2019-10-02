@@ -53,6 +53,9 @@ td {
 a {
   color: black;
 }
+li {
+  margin: 10px;
+}
 a:hover{
   color: #499153;
 }
