@@ -1,0 +1,28 @@
+{
+  "name": "fbla-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "bootstrap": "^5.1.3",
+    "react": "^17.0.2",
+    "react-select": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porridge34/fbla-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Porridge34/fbla-website/issues"
+  },
+  "homepage": "https://github.com/Porridge34/fbla-website#readme"
+}
