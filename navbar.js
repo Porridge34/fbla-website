@@ -62,8 +62,8 @@ var NavBar = function (_React$Component) {
 										{ "class": "nav-item" },
 										React.createElement(
 											"a",
-											{ "class": "nav-link", href: "mission.html" },
-											"Mission"
+											{ "class": "nav-link", href: "about.html" },
+											"About"
 										)
 									),
 									React.createElement(
@@ -80,7 +80,7 @@ var NavBar = function (_React$Component) {
 										{ "class": "nav-item" },
 										React.createElement(
 											"a",
-											{ "class": "nav-link ", href: "about.html" },
+											{ "class": "nav-link ", href: "reviews.html" },
 											"Reviews"
 										)
 									),
@@ -90,7 +90,7 @@ var NavBar = function (_React$Component) {
 										React.createElement(
 											"a",
 											{ "class": "nav-link dropdown-toggle", "data-bs-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
-											"About"
+											"Connect with Us"
 										),
 										React.createElement(
 											"div",
@@ -106,6 +106,15 @@ var NavBar = function (_React$Component) {
 												"Contact Us"
 											)
 										)
+									)
+								),
+								React.createElement(
+									"button",
+									{ "class": "btn btn-secondary my-2 my-sm-0" },
+									React.createElement(
+										"a",
+										{ href: "login.html" },
+										"Log in"
 									)
 								)
 							)

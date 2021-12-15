@@ -18,22 +18,23 @@ class NavBar extends React.Component {
 					<a class="nav-link" href="index.html">Home</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="mission.html">Mission</a>
+					<a class="nav-link" href="about.html">About</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="getcsimplified.html">Get CSimplified</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link " href="about.html">Reviews</a>
+					<a class="nav-link " href="reviews.html">Reviews</a>
 				  </li>
 				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Connect with Us</a>
 					<div class="dropdown-menu">
 					  <a class="dropdown-item" href="socials.html">Our Socials</a>
 					  <a class="dropdown-item" href="contactus.html">Contact Us</a>
 					</div>
 				  </li>
 				</ul>
+				<button class="btn btn-secondary my-2 my-sm-0"><a href = "login.html">Log in</a></button>
 			  </div>
 			</div>
 		  </nav>
