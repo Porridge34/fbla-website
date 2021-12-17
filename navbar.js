@@ -26,9 +26,10 @@ var NavBar = function (_React$Component) {
 					"div",
 					{ "class": "nav-bar" },
 					React.createElement("link", { rel: "stylesheet", href: "bootstrap.min.css" }),
+					React.createElement("link", { rel: "stylesheet", href: "CSS/style.css" }),
 					React.createElement(
 						"nav",
-						{ "class": "navbar navbar-expand-lg navbar-dark bg-primary" },
+						{ "class": "navbar navbar-expand-lg navbar-dark" },
 						React.createElement(
 							"div",
 							{ "class": "container-fluid" },
@@ -110,7 +111,7 @@ var NavBar = function (_React$Component) {
 								),
 								React.createElement(
 									"button",
-									{ "class": "btn btn-secondary my-2 my-sm-0" },
+									{ "class": "btn btn-secondary my-2 my-sm-0 dumb-button" },
 									React.createElement(
 										"a",
 										{ href: "login.html" },

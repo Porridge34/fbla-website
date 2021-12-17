@@ -5,7 +5,8 @@ class NavBar extends React.Component {
 		//   <h1>test</h1>
 		<div class = "nav-bar">
 			<link rel="stylesheet" href="bootstrap.min.css" />
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<link rel="stylesheet" href = "CSS/style.css"/>
+			<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container-fluid">
 			  <a class="navbar-brand" href="#">CSimplified</a>
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +35,7 @@ class NavBar extends React.Component {
 					</div>
 				  </li>
 				</ul>
-				<button class="btn btn-secondary my-2 my-sm-0"><a href = "login.html">Log in</a></button>
+				<button class="btn btn-secondary my-2 my-sm-0 dumb-button"><a href = "login.html">Log in</a></button>
 			  </div>
 			</div>
 		  </nav>

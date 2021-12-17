@@ -9,20 +9,24 @@ main {
   margin-left: 20px;
 }
 
+.nav-bar {
+  background-color: #809bce;
+}
+
 .login {
   width: 30%;
   margin: 0 auto;
-  outline: 1px solid gray;
+  outline: 1px solid #95b8d1;
   outline-offset: 15px;
 }
 
 a {
-  color: white;
+  color: #95b8d1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #90a3c3;
+  color: #d6eadf;
   text-decoration: none;
 }
 
@@ -32,12 +36,33 @@ a:hover {
   margin: auto;
 }
 
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.dumb-button {
+  background-color: #95b8d1;
+  border-color: #95b8d1;
+}
+
+.dumb-button:hover {
+  background-color: #b6c9d6;
+  border-color: #b6c9d6;
+}
+
 /* Trick: */
 body {
   position: relative;
   min-height: 100vh;
   margin: 0;
   position: relative;
+  /* background-color: #e7d2ff; */
 }
 
 body::after {
