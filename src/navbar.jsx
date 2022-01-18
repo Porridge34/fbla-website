@@ -35,7 +35,6 @@ class NavBar extends React.Component {
 					</div>
 				  </li>
 				</ul>
-				<button class="btn btn-secondary my-2 my-sm-0 dumb-button"><a href = "login.html">Log in</a></button>
 			  </div>
 			</div>
 		  </nav>

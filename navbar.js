@@ -108,15 +108,6 @@ var NavBar = function (_React$Component) {
 											)
 										)
 									)
-								),
-								React.createElement(
-									"button",
-									{ "class": "btn btn-secondary my-2 my-sm-0 dumb-button" },
-									React.createElement(
-										"a",
-										{ href: "login.html" },
-										"Log in"
-									)
 								)
 							)
 						)

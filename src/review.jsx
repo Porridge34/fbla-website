@@ -1,7 +1,11 @@
 'use-strict';
+
 class Review extends React.Component {
+    processLogin(form) {
+        console.log(form.username)
+    }
     render() {
-        if (loggedIn == False) {
+        if (!document.cookie.includes("username")) {
             return (
                 <div>
                     <link rel="stylesheet" href="bootstrap.min.css" />
@@ -16,15 +20,15 @@ class Review extends React.Component {
                     <form>
                         <fieldset>
                             <div class="form-group">
-                                <label for="username" class="form-label mt-4">Username</label>
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
+                                <label for="title-review" class="form-label mt-4">Title of review</label>
+                                <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter title"></input>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="review-content" class="form-label mt-4">Review</label>
+                                <input type="text" class="form-control" placeholder="Enter review"></input>
                             </div>
                             <br/>
-                            <button type="submit" class="btn btn-primary dumb-button">Submit</button>
+                            <button type="submit" class="btn btn-primary dumb-button" onClick="processLogin(this.form)">Submit</button>
                             <br/>
                             <br/>
                         </fieldset>
@@ -35,5 +39,5 @@ class Review extends React.Component {
     }
   }
 
-  let domContainer = document.querySelector('#review');
+  let domContainer = document.querySelector('#review_');
   ReactDOM.render(<Review />, domContainer);
